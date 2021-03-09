@@ -13,16 +13,17 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <h1>Ounce Tracker</h1>
+    <div class="container">
+      <h1>Ounce Tracker</h1>
 
-    <h2>0</h2>
-    <div class="d-grid gap-2 d-md-block">
-      <button class="btn btn-primary" id="countup" type="button">+</button>
-      <button class="btn btn-secondary" id="countdown" type="button">-</button>
+      <h2>0</h2>
+      <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-primary" id="countup" type="button">+</button>
+        <button class="btn btn-secondary" id="countdown" type="button">-</button>
+      </div>
+
+      <button class="btn btn-light" onclick="clear_count()">Clear All</button>
     </div>
-
-    <button class="btn btn-light" onclick="clear_count()">Clear All</button>
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
